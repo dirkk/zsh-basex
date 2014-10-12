@@ -28,3 +28,6 @@ Alias | Expand
 `bxhtp` | `basexhttp -e 0 -p 0 -h`
 `bxhst` | `basexhttp stop`
 
+## Installation
+
+This plugin is intended to by used with [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh). Simply put all files into the plugins directoy in a new folder. The default directory is `.oh-my-zsh/plugins`, so put all the files in a directory `.oh-my-zsh/plugins/basex` and add it to the plugins in your `.zshrc`, e.g. `plugins=(git basex)`.
