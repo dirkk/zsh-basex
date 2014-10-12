@@ -12,17 +12,17 @@ Alias | Expand
 `bxc` | `basex -c` execute database command
 `bxo` | `basex -i` open initial file or db
 `bxe` | `basex -R -x` emulate execution, show query plan
---- | ---
+ | 
 `bxg` | `basexgui`
 `bxgh` | `basexgui` with the root directoy as the current directory
---- | ---
+ | 
 `bxsv` | `basexserver -e 0`
 `bxsvs` | `basexserver -e 0 -S`
 `bxsvp` | `basexserver -e 0 -p`
 `bxst` | `basexserver stop`
---- | ---
+ | 
 `bxcl` | `basexclient` with the first command being `[[username[:password]@]host[:port]]`
---- | ---
+ | 
 `bxht` | `basexhttp -e 0 -p 0 -h 1984`
 `bxhts` | `basexhttp -e 0 -p 0 -h 1984 -S`
 `bxhtp` | `basexhttp -e 0 -p 0 -h`
